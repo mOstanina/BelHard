@@ -1,1 +1,1 @@
-print("ostanina1")
+print("ostanina12")
