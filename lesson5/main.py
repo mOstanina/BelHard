@@ -24,7 +24,8 @@ if len(input_string) > 10:
 else:
     try:
         print(input_string[4])
-    except: print("недостаточно символов")
+    except:
+        print("недостаточно символов")
 
 """3.
 Получить на ввод количество рублей и копеек и вывести в правильной форме, например, 3 рубля, 1 рубль 25 копеек, 3 копейки
@@ -47,7 +48,8 @@ while rub is None:
             rub_string = "рублей"
         else:
             rub_string = "рубля"
-    except ValueError: print("неверное значение")
+    except ValueError:
+        print("неверное значение")
 
 while cop is None:
     try:
