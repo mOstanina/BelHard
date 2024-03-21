@@ -39,5 +39,6 @@ class Phone:
 
 phone = Phone("nokia", "3310", 2001)
 
-# phone.get_info()
+phone.receive_call('Valera')
+phone.get_info()
 phone.__str__()
